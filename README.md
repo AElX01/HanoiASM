@@ -1,3 +1,3 @@
-# Hanoi Towers on RISC-V assembly
+# Hanoi Towers on RISC-V Assembly
 
 
