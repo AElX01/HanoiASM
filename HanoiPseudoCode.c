@@ -1,4 +1,4 @@
-// REFERENCE CODE FROM: https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi-2/
+// FROM: https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi-2/
 
 #include <stdio.h>
 
