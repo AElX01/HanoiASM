@@ -1,4 +1,4 @@
-# =======HANOI TOWERS ON RISC-V ASSEMBLY=======
+# =======TOWER OF HANOI ON RISC-V ASSEMBLY=======
 # AUTHOR: Daniel Alejandro Juarez Mota
 # =============================================
 
