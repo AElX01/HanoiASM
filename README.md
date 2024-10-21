@@ -1,4 +1,4 @@
-# TOWER OF HANOI ON RISC-V ASSEMBLY
+# TOWER OF HANOI IN RISC-V ASSEMBLY
 
 ## OVERVIEW
 This repo contains my implementation of the Tower of Hanoi problem coded in RISC-V assembly as practice from my Computer Organization and Architecture course. The **.asm** file contains the abstraction to RISC-V assembly of the recursive high level solution from **HanoiPseudoCode.c** file from https://www.geeksforgeeks.org/c-program-for-tower-of-hanoi-2:
