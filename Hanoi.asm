@@ -4,12 +4,14 @@
 
 
 .text
-	addi s0, zero, 0x3 # N
+	addi s0, zero, 0x4 # N
+	addi t2, zero, 0x20 # OFFSET
+	mul t2, t2, s0
 	lui s1, 0x10010 # POINTER TO TOWER A -> SRC
 	addi s2, s1, 0x4 # TOWER B -> AUX
 	addi s3, s1, 0x8 # TOWER C -> DST
-	addi s2, s2, 0x60 # BOTTOM TOWER B
-	addi s3, s3, 0x60 # BOTTOM TOWER C
+	add s2, s2, t2 # BOTTOM TOWER B
+	add s3, s3, t2 # BOTTOM TOWER C
 	
 LOOP:	blt t0, s0, ACCOMMODATE_DISKS # FOR LOOP TO ACCOMMODATE DISKS ON THE .DATA SECTION
 	lui s1, 0x10010 # RESTORES TOWER A POINTER
