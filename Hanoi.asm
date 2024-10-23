@@ -4,7 +4,7 @@
 
 
 .text
-	addi s0, zero, 0x4 # N
+	addi s0, zero, 0x15 # N
 	addi t2, zero, 0x20 # OFFSET
 	mul t2, t2, s0
 	lui s1, 0x10010 # POINTER TO TOWER A -> SRC
